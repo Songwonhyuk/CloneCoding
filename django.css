@@ -1,7 +1,14 @@
 * {padding: 0; margin: 0; text-decoration: none; list-style: none;}
 #mail-png {width: 25px; height: 20px; cursor: pointer;}
-.meta {font-size: 15px; line-height: 1.3; width: 330px; margin-bottom: 50px;}
+.meta {font-size: 15px; line-height: 1.3; width: 330px; margin-bottom: 15px;}
 .meta > a {color: #20AA76;}
+.achs {color: #20AA76;}
+#liner {border-bottom: 1px solid #bccfc7; margin-top: 350px;}
+#mid-liner {border-bottom: 1px solid #bccfc7;}
+#side-bar-liner{border-bottom: 1px solid #bccfc7; margin: 30px 0 40px;}
+.bold {font-weight: bold;}
+.docs-img {width: 20px; height: 17px; vertical-align: middle;}
+
 
 
 #top .container {background-color: #0C3C26; height: 54px; vertical-align: middle; padding: 10px 0 6px; }
@@ -22,31 +29,66 @@
 
 .copy-banner .container .small-box {background: #44B78B; width: 300px; display: inline-block; height: 60px; border-radius: 7px; margin-top: 10px;}
 .copy-banner .container .small-box .cta{color: #fff; font-size: 17px; font-weight: bold; display: inline-block; margin: 20px 0 30px;}
-#liner {border-bottom: 1px solid #bccfc7; margin-top: 370px;}
+
 
 
 .container-main {margin: 0 auto; max-width: 1400px; padding: 0 4.16667%; display: flex; justify-content: center; color: #0C3C26; letter-spacing: -1px; line-height: 1.6;}
-.container-main .left {margin: 0 56px 80px; flex-basis: 3000px;}
-.left .section {border-bottom: 1px solid #bccfc7;}
+.container-main .left {margin: 0 0 80px; flex-basis: 950px; margin-right: 50px;}
+
 .left .section > h1 {margin: 50px 0 30px; font-size: 30px; font-weight: 500;}
 .left .section > p {padding: 10px 0 18px; font-weight: 400;}
 .left .section .list-features {display: flex; flex-direction: column;}
-.left .section .list-features > dt {display: inline; margin: 20px 0 20px;}
+.left .section .list-features > dt {display: inline; margin: 30px 0 30px;}
 .left .section .list-features > dt >p {width: 670px;}
 .icons {width: 80px; height: 80px; display: inline; float: left; margin-right: 30px;}
 
 .section .btn-outline {color: #859D94; text-align: center;}
 .section .btn-outline p {border: 1px solid #dceae5; margin: 50px 230px 50px; width: 400px; padding: 18px 20px; border-radius: 7px; font-weight: 500; font-size: 18px;}
 
-.section .layout-2col {display: flex;}
+.section .layout-2col {display: flex; width: 1300spx;}
 .section .layout-2col .col-form-email {margin-right: 40px;}
-.section .subs {font-size: 18px; font-weight: 400;}
+.section .subs {font-size: 18px; font-weight: 500; letter-spacing: 0px;}
+.section .subs a{color:#0C3C26; text-decoration: underline;}
 
 
-.layout-2col .col-form-email h3 {font-size: 20px; font-weight: bold;}
+.layout-2col .col-form-email h3 {font-size: 20px; font-weight: bold; margin-bottom: 10px;}
 .layout-2col .col-form-email h3 > a{color: #20AA76;}
 .layout-2col .col-form-email .form-input {margin: 10px 5px 30px 0; border: 1px solid #bccfc7; border-radius: 4px;}
 .layout-2col .col-form-email .form-input > input {width: 290px; border: 0px; padding: 10px 10px 10px; font-size: 17px;}
 .layout-2col .col-form-email .form-input > input:focus {outline: none;}
 .layout-2col .col-form-email .form-input > button {float: right; width: 40px; height: 40px; background: none; border: none;}
 
+.col-form-email-lastchild h3 {font-size: 20px; font-weight: bold; margin-bottom: 10px;}
+.col-form-email-lastchild h3 > a {color: #20AA76;}
+.col-form-email-lastchild .form-input {margin: 10px 5px 30px 0; border: 1px solid #bccfc7; border-radius: 4px;}
+.col-form-email-lastchild .form-input > input {width: 290px; border: 0px; padding: 10px 10px 10px; font-size: 17px;}
+.col-form-email-lastchild .form-input > input:focus {outline: none;}
+.col-form-email-lastchild .form-input > button {float: right; width: 40px; height: 40px; background: none; border: none;}
+.col-form-email-lastchild p:last-child {margin-top: 15px;}
+
+.container-main .right {background-color: #f8f8f8; padding: 40px 30px 0 30px;}
+.container-main .right > h3 {font-size: 20px; border-bottom: 1px solid #bccfc7; margin: 15px 0 15px; padding-bottom: 15px; text-align: left;}
+.container-main .right .cta {background: #44B78B; width: 450px; display: block; height: 60px; border-radius: 7px;  color: white; font-weight: bold; text-align: center;}
+.container-main .right .cta em{color: #fff; font-size: 17px; display: inline-block; margin: 15px 0; color: #C9F0DD;}
+#readmore-center {text-align: center; display: block; margin-top: 5px;}
+.container-main .right .link-readmore {text-align: left; display: block; margin: 30px 0 35px; color: #20AA76; font-weight: 600; font-size: 12px;}
+.container-main .right .link-readmore::after {content: ">"; font-size: 11px;}
+
+.container-main .right .fundraising-sidebar h2 {font-size: 20px; margin: 15px 0 15px; border-bottom: 1px solid #bccfc7; padding-bottom: 15px;}
+
+.fundraising-sidebar .small-heart {float: left; margin: 20px 0 10px; width: 90px;}
+.fundraising-sidebar .small-heart img {width: 64px; height: 54.84px;}
+
+
+.right .list-news li > h4{margin-bottom: 10px;}
+.right .list-news li > h4 > a {color: #20AA76; font-weight: bold;}
+.right .list-news li > p {letter-spacing: 0px; font-size: 15px; line-height: 23px; margin: 10px 0;}
+.right .list-news li > span {color:#859D94;}
+
+.list-links-small-docs {margin: 14px 0}
+.list-links-small-docs > li {margin: 11px 0;}
+.list-links-small-docs > li >a {color: #20AA76; margin: 15px 0 0;}
+.list-links-small-docs > li >a::before {content: icon;}
+
+.list-links-small > dt > a{color: #20AA76; font-size: 15px; letter-spacing: 0px;}
+.list-links-small > dd {color: #798780; margin: 2px 0 15px; font-size: 14px; letter-spacing: 0px;}
